@@ -20,12 +20,6 @@ import (
 	kingpin "gopkg.in/alecthomas/kingpin.v2"
 )
 
-type certFilePathList []string
-
-func (i *certFilePathList) String() string {
-	return "target certificate file path"
-}
-
 const (
 	namespace = "apns"
 )
